@@ -14,7 +14,7 @@ def get_info():
         "email": "Kgkpt2018@gmail.com",
         # figure out UTC datetime last one said deprcated
         "current_datetime": datetime.now(timezone.utc).isoformat() + "Z",
-        "github_url": "https://github.com/yourusername/your-repo"
+        "github_url": "https://github.com/Karadumk/hng-api-task"
     }
     return jsonify(response), 200
 
