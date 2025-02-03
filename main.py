@@ -12,8 +12,8 @@ def get_info():
     # response dictionary
     response = {
         "email": "Kgkpt2018@gmail.com",
-        # figure out UTC datetime last one said deprcated
-        "current_datetime": datetime.now(timezone.utc).isoformat() + "Z",
+        # figure out UTC datetime last one wasnt correct
+        "current_datetime": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         "github_url": "https://github.com/Karadumk/hng-api-task"
     }
     return jsonify(response), 200
